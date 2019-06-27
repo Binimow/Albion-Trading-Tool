@@ -42,9 +42,7 @@ def simple_best_offers(ItemOrganised):
         return(GoodItem)
 
 def show_result(GoodItem):
-        final_str = ''
         perf_city = []
-        k = 0
         for i, j in GoodItem.items():
                 a, b, c, d = j
                 OrganisedCity[CityList[b]].append([i, a, c, CityList[d]])
@@ -63,7 +61,7 @@ def city_str(OrganisedCity, current_city):
                         current_stats = j[0], j[1], j[2], j[3]
                         current_str = current_stats
                 else:
-                        print('Elsed', j)
+                        pass
         city_handling = [current_city, current_str[0], current_str[1], current_str[2], current_str[3]]
         yes_city = sort_list_city(city_handling)
         return(yes_city)
