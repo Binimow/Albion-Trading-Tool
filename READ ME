@@ -2,3 +2,6 @@
 2 - Launch 'FunctionAAPI.py'
 3 - Wait..
 4 - Analyse
+
+**If you want to new items, add them via the 'AllValuesAAPI.py' file
+**Presently only the T5 is detected
